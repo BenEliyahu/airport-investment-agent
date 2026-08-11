@@ -1,5 +1,7 @@
 # Airport Investment Intelligence Agent
 
+**Live demo: [airportinvestmentagent.vercel.app](https://airportinvestmentagent.vercel.app/)**
+
 A conversational agent that helps identify which US airports are strong
 candidates for terminal/runway expansion investment, backed by a
 deterministic scoring engine over public FAA/BTS/OurAirports data plus a
