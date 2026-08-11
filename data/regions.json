@@ -1,0 +1,30 @@
+{
+  "note": "Deterministic region groupings used to resolve queries like 'airports in New England' without relying on the LLM's geography knowledge. Curated by hand for the airports covered in this project's dataset -- not exhaustive of every airport in each region, see DESIGN.md scoping notes.",
+  "regions": {
+    "new-england": {
+      "label": "New England",
+      "states": ["MA", "CT", "RI", "NH", "VT", "ME"],
+      "airports": ["BOS", "PVD", "BDL", "MHT", "PWM", "BGR"]
+    },
+    "la-basin": {
+      "label": "Los Angeles Basin / Southern California",
+      "states": ["CA"],
+      "airports": ["LAX", "SNA", "BUR", "LGB", "ONT"]
+    },
+    "sf-bay-area": {
+      "label": "San Francisco Bay Area",
+      "states": ["CA"],
+      "airports": ["SFO", "OAK", "SJC"]
+    },
+    "alaska": {
+      "label": "Alaska",
+      "states": ["AK"],
+      "airports": ["ANC", "FAI", "JNU"]
+    },
+    "national-baseline": {
+      "label": "National baseline (major hubs, for ranking context)",
+      "states": [],
+      "airports": ["ATL", "ORD", "DFW", "DEN", "JFK", "SEA", "MIA", "PHX", "MCO", "LAS", "CLT"]
+    }
+  }
+}
