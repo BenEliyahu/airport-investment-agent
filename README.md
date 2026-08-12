@@ -30,6 +30,11 @@ Every assistant reply has a collapsible "N deterministic tool calls behind
 this answer" disclosure — expand it to see exactly which scoring functions
 ran and what raw data they returned.
 
+Voice input (mic button, fills the input for you to review before sending)
+and read-aloud (per-message speaker icon) are supported in Chromium-based
+browsers (Chrome, Edge) via the Web Speech API; both are feature-detected
+and hidden entirely elsewhere.
+
 ## Project layout
 
 ```
@@ -73,11 +78,25 @@ To update the curated FAA/BTS/destination figures themselves, edit
 `data/faa-bts-raw.json` (schema documented at the top of
 `scripts/build-dataset.mjs`) and re-run the build step.
 
+## Tests
+
+```bash
+npm test
+```
+
+`lib/scoring.test.ts` verifies the scoring engine is actually deterministic
+(not just asserted to be in DESIGN.md), that a missing raw input renormalizes
+the remaining weights correctly and lowers `data_completeness_pct`, and that
+peer-set sensitivity produces genuinely different scores for the same
+airport -- against the real shipped dataset wherever the shipped data can
+exercise the case, with a documented fixture for the missing-data path since
+all 28 airports currently have complete data.
+
 ## Tech stack
 
 Next.js (App Router, TypeScript), Tailwind CSS, Recharts, OpenAI SDK (Chat
-Completions + function calling). No database -- the dataset is a static,
-versioned JSON snapshot with documented provenance.
+Completions + function calling), Vitest. No database -- the dataset is a
+static, versioned JSON snapshot with documented provenance.
 
 ## Known limitations
 
