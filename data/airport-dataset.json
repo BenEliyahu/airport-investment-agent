@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-11T15:00:18.537Z",
+  "built_at": "2026-08-18T14:49:53.788Z",
   "long_haul_threshold_mi": 2000,
   "regions": {
     "new-england": {
@@ -436,7 +436,7 @@
     "SJC": {
       "iata": "SJC",
       "icao": "KSJC",
-      "name": "Norman Y. Mineta San Jose International Airport",
+      "name": "Mineta San Jose International Airport",
       "city": "San Jose",
       "state": "CA",
       "lat": 37.362452,

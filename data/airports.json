@@ -1,6 +1,6 @@
 {
   "source": "https://ourairports.com/data/ (OurAirports open data, public domain)",
-  "fetched_at": "2026-08-11T14:55:15.311Z",
+  "fetched_at": "2026-08-18T14:49:49.429Z",
   "count": 679,
   "airports": [
     {
@@ -4691,7 +4691,7 @@
       "type": "small_airport",
       "scheduled_service": true,
       "runway_count": 2,
-      "longest_runway_ft": 6008
+      "longest_runway_ft": 5997
     },
     {
       "iata": "KTB",
@@ -5564,7 +5564,7 @@
     {
       "iata": "MEM",
       "icao": "KMEM",
-      "name": "Memphis International Airport",
+      "name": "Frederick W. Smith International Airport",
       "city": "Memphis",
       "state": "TN",
       "lat": 35.043845,
@@ -8028,7 +8028,7 @@
     {
       "iata": "SJC",
       "icao": "KSJC",
-      "name": "Norman Y. Mineta San Jose International Airport",
+      "name": "Mineta San Jose International Airport",
       "city": "San Jose",
       "state": "CA",
       "lat": 37.362452,
@@ -9506,7 +9506,7 @@
       "elevation_ft": 213,
       "type": "medium_airport",
       "scheduled_service": true,
-      "runway_count": 4,
+      "runway_count": 3,
       "longest_runway_ft": 13300
     }
   ]

@@ -1,7 +1,7 @@
 {
   "source": "https://ourairports.com/data/ (OurAirports open data, public domain)",
-  "fetched_at": "2026-08-11T14:55:15.349Z",
-  "count": 9055,
+  "fetched_at": "2026-08-18T14:49:49.468Z",
+  "count": 9052,
   "coords": {
     "UTK": {
       "lat": 11.222219,
@@ -20919,15 +20919,6 @@
       "type": "large_airport",
       "scheduled_service": true
     },
-    "NTO": {
-      "lat": 17.202800750732422,
-      "lon": -25.090599060058594,
-      "name": "Agostinho Neto Airport",
-      "municipality": "Ponta do Sol",
-      "country": "CV",
-      "type": "small_airport",
-      "scheduled_service": false
-    },
     "BVC": {
       "lat": 16.136499,
       "lon": -22.888901,
@@ -23427,7 +23418,7 @@
       "name": "Amravati  Airport",
       "municipality": "Amravati",
       "country": "IN",
-      "type": "small_airport",
+      "type": "medium_airport",
       "scheduled_service": true
     },
     "SDW": {
@@ -32487,7 +32478,7 @@
     "MEM": {
       "lat": 35.043845,
       "lon": -89.97634,
-      "name": "Memphis International Airport",
+      "name": "Frederick W. Smith International Airport",
       "municipality": "Memphis",
       "country": "US",
       "type": "large_airport",
@@ -36609,7 +36600,7 @@
     "SJC": {
       "lat": 37.362452,
       "lon": -121.929188,
-      "name": "Norman Y. Mineta San Jose International Airport",
+      "name": "Mineta San Jose International Airport",
       "municipality": "San Jose",
       "country": "US",
       "type": "large_airport",
@@ -37525,8 +37516,8 @@
       "scheduled_service": false
     },
     "XSD": {
-      "lat": 37.7988014221,
-      "lon": -116.78099823,
+      "lat": 37.798801,
+      "lon": -116.780998,
       "name": "Tonopah Test Range Airport",
       "municipality": "Tonopah",
       "country": "US",
@@ -38760,7 +38751,7 @@
     "GEC": {
       "lat": 35.23591,
       "lon": 33.720088,
-      "name": "Lefkoniko Airport / Geçitkale Air Base",
+      "name": "Geçitkale Airbase",
       "municipality": "Lefkoniko (Geçitkale)",
       "country": "CY",
       "type": "medium_airport",
@@ -40239,7 +40230,7 @@
       "name": "Nantes Atlantique Airport",
       "municipality": "Nantes",
       "country": "FR",
-      "type": "medium_airport",
+      "type": "large_airport",
       "scheduled_service": true
     },
     "SBK": {
@@ -42219,7 +42210,7 @@
       "name": "Sivas Nuri Demirağ Airport",
       "municipality": "Sivas",
       "country": "TR",
-      "type": "small_airport",
+      "type": "medium_airport",
       "scheduled_service": true
     },
     "ONQ": {
@@ -63948,15 +63939,6 @@
       "type": "medium_airport",
       "scheduled_service": true
     },
-    "XXX": {
-      "lat": 36.913289,
-      "lon": 31.083723,
-      "name": "Serik Bus Station Helipad",
-      "municipality": "Serik",
-      "country": "TR",
-      "type": "heliport",
-      "scheduled_service": false
-    },
     "MNI": {
       "lat": 16.791835,
       "lon": -62.193204,
@@ -68097,15 +68079,6 @@
       "type": "medium_airport",
       "scheduled_service": true
     },
-    "VTZ": {
-      "lat": 17.723506,
-      "lon": 83.227729,
-      "name": "Visakhapatnam International Airport",
-      "municipality": "Visakhapatnam",
-      "country": "IN",
-      "type": "large_airport",
-      "scheduled_service": true
-    },
     "ZER": {
       "lat": 27.588301,
       "lon": 93.828102,
@@ -68284,7 +68257,7 @@
       "municipality": "Aligarh",
       "country": "IN",
       "type": "small_airport",
-      "scheduled_service": true
+      "scheduled_service": false
     },
     "IXD": {
       "lat": 25.4401,
@@ -68559,7 +68532,7 @@
     "SXR": {
       "lat": 33.987099,
       "lon": 74.7742,
-      "name": "Sheikh ul Alam International Airport",
+      "name": "Srinagar International Airport",
       "municipality": "Srinagar",
       "country": "IN",
       "type": "large_airport",
@@ -69434,6 +69407,15 @@
       "lon": 76.920029,
       "name": "Thiruvananthapuram International Airport",
       "municipality": "Thiruvananthapuram",
+      "country": "IN",
+      "type": "large_airport",
+      "scheduled_service": true
+    },
+    "VTZ": {
+      "lat": 17.971512,
+      "lon": 83.503617,
+      "name": "Alluri Sitarama Raju International Airport (Vizag)",
+      "municipality": "Visakhapatnam",
       "country": "IN",
       "type": "large_airport",
       "scheduled_service": true
@@ -79850,15 +79832,6 @@
       "country": "MN",
       "type": "medium_airport",
       "scheduled_service": true
-    },
-    "UGT": {
-      "lat": 43.749304,
-      "lon": 104.114985,
-      "name": "Bulagtai Resort Airport",
-      "municipality": "Khankhongor",
-      "country": "MN",
-      "type": "small_airport",
-      "scheduled_service": false
     },
     "HBU": {
       "lat": 46.100601,
